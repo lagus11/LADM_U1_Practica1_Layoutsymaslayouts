@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo"
+    tools:context=".MainActivity2">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="24dp">
+
+
+        <LinearLayout>
+
+            <ImageView
+                android:layout_width="42dp"
+                android:layout_height="54dp"
+                android:layout_marginLeft="310dp"
+                android:paddingTop="15dp"
+                android:src="@drawable/menu" />
+        </LinearLayout>
+
+        <TableRow android:layout_width="335dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+
+                android:src="@drawable/yo" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:text="Alejandro Sanchez Lopez"
+                android:paddingTop="15dp"
+                android:paddingBottom="5dp"
+                android:textAlignment="center"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3112010508"
+                android:textAlignment="center"
+                android:layout_column="1"/>
+        </TableRow>
+        <TableRow>
+
+            <ImageView
+                android:layout_width="143dp"
+                android:layout_height="39dp"
+                android:layout_column="1"
+                android:src="@drawable/pass" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your password"
+                android:textAlignment="center"
+                android:layout_column="1"/>
+        </TableRow>
+        <TableRow
+            android:paddingTop="60dp"
+            android:paddingBottom="10dp"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/uno"
+
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dos"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tres"
+                />
+        </TableRow>
+        <TableRow
+            android:paddingBottom="15dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cuatro"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cinco"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/seis"
+                />
+        </TableRow>
+        <TableRow
+            android:paddingBottom="15dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/siete"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ocho"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nueve"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="114dp">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:src="@drawable/cero" />
+
+            <ImageView
+                android:layout_width="76dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/borrar" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

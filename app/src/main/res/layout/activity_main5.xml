@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:layout_row="5"
+    android:background="#1BD29A"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_columnSpan="2"
+        android:text="Card"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_columnSpan="2"
+        android:text="Simples and easy to use app"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="50dp"/>
+
+
+
+
+    <LinearLayout
+        style="@style/gridlayoutMenu"
+        android:orientation="vertical"
+        android:background="@drawable/roudedlayout"
+
+        >
+        <ImageButton
+            android:background="@drawable/texto"
+            style="@style/pantallaCincoBotones"
+            />
+        <TextView
+            android:text="Text"
+            style="@style/pantallaCincoEtiquetas"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/gridlayoutMenu"
+        android:orientation="vertical"
+        android:background="@drawable/roudedlayout"
+        >
+        <ImageButton
+            android:background="@drawable/address"
+            style="@style/pantallaCincoBotones"
+            />
+        <TextView
+            android:text="Address"
+            style="@style/pantallaCincoEtiquetas"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/gridlayoutMenu"
+        android:orientation="vertical"
+        android:background="@drawable/roudedlayout"
+        >
+        <ImageButton
+            android:background="@drawable/character"
+            style="@style/pantallaCincoBotones"
+            />
+        <TextView
+            android:text="Character"
+            style="@style/pantallaCincoEtiquetas"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/gridlayoutMenu"
+        android:orientation="vertical"
+        android:background="@drawable/roudedlayout"
+        >
+        <ImageButton
+            android:background="@drawable/creditcard"
+            style="@style/pantallaCincoBotones"
+            />
+        <TextView
+            android:text="Bank Card"
+            style="@style/pantallaCincoEtiquetas"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/gridlayoutMenu"
+        android:orientation="vertical"
+        android:background="@drawable/roudedlayout"
+        >
+        <ImageButton
+            android:background="@drawable/password"
+            style="@style/pantallaCincoBotones"
+            />
+        <TextView
+            android:text="Password"
+            style="@style/pantallaCincoEtiquetas"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/gridlayoutMenu"
+        android:orientation="vertical"
+        android:background="@drawable/roudedlayout"
+        >
+        <ImageButton
+            android:background="@drawable/logistics"
+            style="@style/pantallaCincoBotones"
+            />
+        <TextView
+            android:text="Logistics"
+            style="@style/pantallaCincoEtiquetas"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@drawable/roudedlayout"
+        android:layout_columnSpan="2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/settings"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textColor="#514B4B"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"/>
+    </LinearLayout>
+
+</GridLayout>

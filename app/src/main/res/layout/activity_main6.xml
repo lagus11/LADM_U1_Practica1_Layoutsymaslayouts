@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <LinearLayout
+        android:background="@drawable/stile">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@drawable/prin"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="177dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:text="Card"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="150dp"
+                android:src="@drawable/user" />
+        </LinearLayout>
+    </LinearLayout>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="15dp"
+        >
+        <LinearLayout
+            android:background="@drawable/stile">
+
+            <LinearLayout
+                android:layout_width="369dp"
+                android:layout_height="88dp"
+                android:background="@drawable/azul2"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dribble"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bramp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="****************"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </TableRow>
+    <TableRow
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="15dp">
+
+        <LinearLayout
+            android:layout_height="76dp"
+            android:background="@drawable/azul"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HUM"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1231****12313" />
+
+        </LinearLayout>
+    </TableRow>
+    <TableRow
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="15dp">
+
+        <LinearLayout
+            android:layout_height="95dp"
+            android:background="@drawable/naranja"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Tom"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calle Siempre Viva No. 45" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Huston Texas" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21****231" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="15dp">
+
+        <LinearLayout
+            android:layout_height="104dp"
+            android:background="@drawable/gris"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="112 **** **** 2123 "
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HSBC" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Debit card                                                                           12/21" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow
+        android:paddingHorizontal="20dp"
+        android:paddingBottom="15dp">
+
+        <LinearLayout
+            android:background="@drawable/gris2"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Young"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thats in the story of me and them..."/>
+        </LinearLayout>
+    </TableRow>
+</TableLayout>
